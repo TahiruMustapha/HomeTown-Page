@@ -1,0 +1,82 @@
+body{
+    
+   background: #add8e6;
+    text-align: center;
+    
+
+}
+.content{
+    text-align: center;
+    background: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 15px;
+    border: 8px solid white;
+    margin-bottom: 60px;
+    margin-top: 60px;
+} 
+
+.Header{
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+    background-image: url(/images/001.jpg);
+    height: 600px;
+    background-position: center;
+    
+}
+.Header h2{
+    margin-top: 0px;
+    background: blue;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+     font-weight: bold;
+     color: white;
+     font-size: 3rem;
+     
+   
+}
+.Header h3{
+    background: blue;
+    width: 500px;
+    margin-left: auto;
+      margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.colunms{
+  display: flex;
+  justify-content: space-around;
+}
+
+.activities img{
+    width: 120px;
+    height: 120px;
+    border: 6px solid lightgreen;
+    border-radius: 50%;
+}
+
+.guide{
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: lightgreen;
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.guide img {
+    border-radius: 10px;
+  
+    margin-left: 20px;
+   
+    width: 400px;
+    height: 300px;
+}
